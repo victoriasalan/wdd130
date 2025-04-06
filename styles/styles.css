@@ -67,7 +67,7 @@ footer {
     text-align: center;
 }
 
-/* Class selectors */
+/* Class Selectors */
 .box {
     margin: 1rem;
     border: var(--border);
