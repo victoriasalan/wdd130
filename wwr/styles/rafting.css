@@ -52,6 +52,7 @@ h2 {
     color: var(--primary-color);
     font-family:'Bebas Neue', sans-serif ;
     font-size: 2rem;
+    text-align: center;
     margin-top: 2rem;
     align-items: center;
 }
@@ -112,17 +113,20 @@ p {
 .gallery {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
     justify-content: space-between;
     margin-top: 15px;
+    margin-right: 30PX;
+    margin-bottom: 50PX;
 }
 
 .gallery figure {
-    width: 250px;
+    width: 200px;
+    height: auto;
     text-align: center;
 }
 
 .gallery img {
+    max-width: 100%;
     width: 200px;
     height: auto;
 }
@@ -137,7 +141,7 @@ footer {
 
 footer nav {
     justify-self: end;
-    margin-right: 50px;
+    margin-right: 5px;
 }
 
 .sociallinks a {
