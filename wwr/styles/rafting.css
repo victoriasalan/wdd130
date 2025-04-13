@@ -113,10 +113,7 @@ p {
     display: flex;
     flex-wrap: wrap;
 }
-.gallery img {
-    width: 200px;
-    height: auto;
-}
+
 footer {
     display: flex;
     justify-content: space-between;
