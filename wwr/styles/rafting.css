@@ -112,8 +112,20 @@ p {
 .gallery {
     display: flex;
     flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+    margin-top: 15px;
 }
 
+.gallery figure {
+    width: 250px;
+    text-align: center;
+}
+
+.gallery img {
+    width: 200px;
+    height: auto;
+}
 footer {
     display: flex;
     justify-content: space-between;
