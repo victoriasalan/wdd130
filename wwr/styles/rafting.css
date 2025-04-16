@@ -309,15 +309,14 @@ textarea {
     font-size: 1rem;
 }
 
-select {
-    width: 100%;
-    padding: 10px;
-    margin-top: 8px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-size: 1rem;
-    background-color: #fff;
-    color: #333;
+.radio-group {
+    margin-top: 10px;
+}
+  
+.radio-group label {
+    display: block;
+    font-weight: normal;
+    margin-bottom: 5px;
 }
   
 .checkbox {
