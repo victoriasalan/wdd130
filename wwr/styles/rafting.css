@@ -284,47 +284,47 @@ form {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     margin-bottom: 80px;
     align-content: center;
-  }
+}
   
-  form h2 {
+form h2 {
     text-align: center;
     margin-bottom: 25px;
-  }
+}
   
-  label {
+label {
     display: block;
     margin-top: 30px;
     font-weight: bold;
     font-family: var(--font-text);
-  }
+}
   
-  input[type="text"],
-  input[type="email"],
-  textarea {
+input[type="text"],
+input[type="email"],
+textarea {
     width: 100%;
     padding: 10px;
     margin-top: 8px;
     border: 1px solid #ccc;
     border-radius: 4px;
     font-size: 1rem;
-  }
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    background-color: #fff;
+    color: #333;
+}
   
-  .radio-group {
-    margin-top: 10px;
-  }
-  
-  .radio-group label {
-    display: block;
-    font-weight: normal;
-    font-family: var(--font-text);
-    margin-bottom: 5px;
-  }
-  
-  .checkbox {
+.checkbox {
     margin-top: 20px;
-  }
+}
   
-  button[type="submit"] {
+button[type="submit"] {
     display: block;
     margin-top: 30px;
     padding: 12px 25px;
@@ -335,8 +335,8 @@ form {
     border-radius: 5px;
     cursor: pointer;
     width: 100%;
-  }
+}
   
-  button[type="submit"]:hover {
+button[type="submit"]:hover {
     background-color: #005fa3;
-  }
+}

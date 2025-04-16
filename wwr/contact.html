@@ -49,18 +49,19 @@
                 </figure>
             </div>
         </section>
-        <form action="#" method="post">
+        <form>
             <h2>Contact Us</h2>
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required>
             <label for="email">Email Address:</label>
             <input type="email" id="email" name="email" required>
-            <label>Purpose of Your Message:</label>
-            <div class="radio-group">
-                <label><input type="radio" name="purpose" value="general" required> General Inquiry</label>
-                <label><input type="radio" name="purpose" value="reservation"> Reservation Question</label>
-                <label><input type="radio" name="purpose" value="suggestion"> Website Suggestion</label>
-            </div>
+            <label for="purpose">Purpose of Your Message:</label>
+            <select id="purpose" name="purpose" required>
+                <option value="">-- Please choose an option --</option>
+                <option value="general">General Inquiry</option>
+                <option value="reservation">Reservation Question</option>
+                <option value="suggestion">Website Suggestion</option>
+            </select>
             <label for="message">Message:</label>
             <textarea id="message" name="message" rows="5" required></textarea>
             <div class="checkbox">
