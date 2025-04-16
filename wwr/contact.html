@@ -53,10 +53,12 @@
             <h2>Contact Us</h2>
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required>
+
             <label for="email">Email Address:</label>
             <input type="email" id="email" name="email" required>
+
             <label for="purpose">Purpose of Your Message:</label>
-            <div class="radio-group" id="purpose">
+            <div class="radio-group">
                 <label for="general">
                     <input type="radio" id="general" name="purpose" value="general" required> General Inquiry
                 </label>
@@ -69,11 +71,11 @@
             </div>
             <label for="message">Message:</label>
             <textarea id="message" name="message" rows="5" required></textarea>
-            <div class="checkbox">
-                <label for="subscribe">
-                  <input type="checkbox" id="subscribe" name="subscribe"> Please subscribe me to the monthly newsletter
-                </label>
-            </div>
+            
+            <label for="subscribe">
+                <input type="checkbox" id= "subscribe=" name="subscribe"> Please subscribe me to the monthly newsletter
+            </label>
+            
             <button type="submit">Submit Request</button>
           </form>
     </main>
