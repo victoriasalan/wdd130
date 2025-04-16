@@ -54,18 +54,19 @@ h2 {
     font-size: 2.3rem;
     text-align: center;
     margin-top: 3rem;
-    align-items: center;
 }
 
 p {
-    padding: 0;
+    /* padding: 0; */
     margin-top: 10px;
     font-family: var(--font-text);
     font-size: 1.1rem;
+    line-height: 1.6;
 }
 
 .hero {
     position: relative;
+    text-align: center;
 }
   
 .hero img {
@@ -76,12 +77,13 @@ p {
   
 .hero h1 {
     position: absolute;
-    top: 10%;
+    top: 15%;
     left: 50%;
     transform: translateX(-50%);
     color: var(--accent1-color);
     font-size: 4.5rem;
     z-index: 2;
+    padding: 10px 20px;
 }
   
 .hero article {
@@ -94,13 +96,19 @@ p {
     padding: 20px;
     color: var(--accent1-color);
     z-index: 1;
+    display: flex;
+    gap: 20px;
+    align-items: center;
 }
   
 .hero article img {
-    float: right; 
+    /* float: right; 
     margin-left: 20px;
     width: 250px;
+    height: auto; */
+    width: 250px;
     height: auto;
+    border-radius: 8px;
 }
   
 .hero article p {
@@ -165,7 +173,6 @@ footer {
     padding: 20px 40px;
     background-color: var(--accent2-color);
     font-family: var(--font-text);
-    /* color: #fff; */
 }
   
 footer nav {
