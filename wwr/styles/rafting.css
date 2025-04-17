@@ -350,7 +350,6 @@ button[type="submit"] {
 .hero-home {
     position: relative;
     width: 100%;
-    max-height: auto;
     overflow: hidden;
 }
   
@@ -493,8 +492,8 @@ button[type="submit"] {
     border-radius: 10px;
     margin: 30px;
     max-width: 600px;
-    font-family: var(--font-text, sans-serif);
-    background-color:var(--secondary-color);
+    font-family: var(--font-text);
+    background-color: var(--secondary-color);
     border-radius: 8px;
     
 }
