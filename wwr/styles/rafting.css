@@ -548,12 +548,12 @@ button[type="submit"] {
     border-radius: 10px;
     max-width: 800px;
     box-shadow: 0 4px 12px var(--accent2-color);
-    font-family: var(--font-text, sans-serif);
+    font-family: var(--font-text);
 }
   
 .contact-cta h2 {
     font-size: 2rem;
-    color: var(--primary-color, #004d40);
+    color: var(--primary-color);
     margin-bottom: 20px;
 }
   
@@ -565,7 +565,7 @@ button[type="submit"] {
   
 .contact-cta .cta-button {
     display: inline-block;
-    background-color: var(--primary-color, #0077cc);
+    background-color: var(--primary-color);
     color: var(--accent1-color, #fff);
     padding: 12px 25px;
     font-size: 1rem;
@@ -590,7 +590,7 @@ button[type="submit"] {
   
 .trip-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* responsive columns */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
     gap: 30px;
 }
   
@@ -620,7 +620,7 @@ button[type="submit"] {
   
 .trip-info h3 {
     font-size: 1.5rem;
-    color: var(--primary-color, #0077cc);
+    color: var(--primary-color);
     margin-bottom: 10px;
 }
   
@@ -633,7 +633,7 @@ button[type="submit"] {
   
 .cta-button {
     display: inline-block;
-    background-color: var(--primary-color, #0077cc);
+    background-color: var(--primary-color);
     color: var(--accent1-color, #fff);
     padding: 10px 20px;
     text-decoration: none;
